@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
     <head>
         <title>Getting Started: Serving Web Content</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     </head>
     <body>
+        <p th:text="${menu}" />
         <p>Get your greeting: <a href="/greeting">Here</a></p>
         <p>The understanding of who I am is here: <a href="/about">About</a></p>
         <p>Here are my: <a href="/contacts">Contacts</a></p>
